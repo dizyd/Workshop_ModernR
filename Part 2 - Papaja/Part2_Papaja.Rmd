@@ -66,7 +66,8 @@ The papaja package was developed by [Frederik Aust](http://methexp.uni-koeln.de/
 
 From the [github documentation](https://crsh.github.io/papaja_man/introduction.html):
 
-"papaja is short for ‘preparing APA journal articles’ and is the name of this R package designed to create fully reproducible journal articles that seamlessly fuse statistical analyses, simulations, and prose. A manuscript written with papaja can be thought of as an extensively commented analysis script ready for publication in a scientific journal." 
+"papaja is short for ‘preparing APA journal articles’ and is the name of this R package designed to create fully reproducible journal articles that seamlessly fuse statistical analyses, simulations, and prose. A manuscript written with `papaja` can be thought of as an extensively commented analysis script ready for publication in a scientific journal." 
+
 
 <!-- *********** NEW SLIDE ************** -->
 ---
