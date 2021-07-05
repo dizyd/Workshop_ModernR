@@ -121,7 +121,7 @@ A shiny app consits of two parts:
 
 <!-- *********** NEW SLIDE ************** -->
 ---
-## Most common (shiny related) errors
+## (My personal) Most common (shiny related) errors
 
 1. <font color ="red"> Error: object 'bins' not found </font> -> forgotten to use `input$bins` instead of `bins`
 
