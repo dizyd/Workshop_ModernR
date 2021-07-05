@@ -727,7 +727,7 @@ References
 class: small
 ## Cross-Referencing Figures, Tables and Equations
 
-To reference figures and tables, you can use Markdown (or LaTeX). You just have to provide a name for the code chunk which creates the table/figure. For instance if your code chunk starts with `{r resTable1}` (avoid using _), you can reference the table with `\@ref(tab:resTable1)` (or `\@ref(fig:XY)`, or `\@ref(eg:XY)`).
+To reference figures and tables, you can use Markdown (or LaTeX). You just have to provide a name for the code chunk which creates the table/figure. For instance if your code chunk starts with `{r resTable1}` (avoid using _), you can reference the table with `\@ref(tab:resTable1)` (or `\@ref(fig:XY)`, or `\@ref(eq:XY)`).
 
 Example:
 
@@ -738,18 +738,18 @@ Example:
 
 ```{r eval = FALSE}
 
-# See Figure \@ref(fig:figureExp1).
-# 
-# ##```{r figureExp1}
-# plot(rnorm(50),rnorm(50))
-# ##``
-# 
-# 
-# Also see Equation \@ref(eq:mean).
-# 
-# \begin{equation}
-# \bar{X} = \frac{\sum_{i=1}^n X_i}{n} (\#eq:mean)
-# \end{equation}
+See Figure \@ref(fig:figureExp1).
+
+##```{r figureExp1, fig.cap = "Normal data"}
+plot(rnorm(50),rnorm(50))
+##``
+
+
+Also see Equation \@ref(eq:mean).
+
+\begin{equation}\label{eq:mean} 
+\bar{X} = \frac{\sum_{i=1}^n X_i}{n} 
+\end{equation}
 
 ```
 ]

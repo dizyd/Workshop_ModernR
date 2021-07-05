@@ -709,6 +709,7 @@ p <- ggplot(chickwts,aes(x=feed,y=weight)) +
         theme_bw()
 ggplotly(p) #<<
 ```
+
 ]
 
 
@@ -765,7 +766,7 @@ output: html_document
 runtime: shiny #<<
 ---
 
-# start code chunk with ```{r}
+# start code chunk 
 
 library(dplyr)
 library(ggplot2)
@@ -786,7 +787,7 @@ rnorm(100,m,5) %>% as.data.frame %>%
   geom_density(aes(y=..density..),fill="tomato1",alpha=0.4) +
   theme_bw()
 })
-# end code chunk with ```
+# end code chunk
 
 ```
 
@@ -799,7 +800,7 @@ Sometimes the paths can be tricky when using Markdown documents, for instance wh
 
 So if you have the following project structure:
 
-```{r eval=FALSE}
+```{r, eval = FALSE}
 
 CoolProject
   - Data
